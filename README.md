@@ -74,17 +74,8 @@ The `/data` directory contains both raw and preprocessed datasets:
 We employed diverse metrics beyond simple accuracy:
 - Regression metrics (RMSE, MAE)
 - Classification metrics (precision, recall)
-- Ranking metrics (NDCG, MAP)
 - Business-oriented metrics (coverage, diversity)
 
-We used appropriate validation techniques including cross-validation, cross-validation with time-based splits, and early stopping.
-
-### Key Findings
-
-- Hybrid models consistently outperformed single-strategy approaches
-- Context-aware recommendations showed significant improvements for certain use cases
-- Balancing exploration and exploitation through bandit algorithms provided better user satisfaction
-- Business value extended beyond accuracy metrics to include diversity and serendipity
 
 ## Web Application
 
@@ -134,41 +125,7 @@ To explore the recommendation models:
    jupyter notebook group_project.ipynb
    ```
 
-## Results and Business Impact
-
-Our recommendation system provides significant business value:
-
-- **Increased User Engagement**: Personalized recommendations keep users on the platform longer
-- **Higher Conversion Rate**: More relevant suggestions lead to more restaurant bookings
-- **User Satisfaction**: Context-aware recommendations meet users' specific needs
-- **Restaurant Discovery**: Balanced recommendation strategies help users discover new places
-- **Business Intelligence**: The system provides valuable insights about user preferences and trends
-
-## Future Enhancements
-
-- Real-time recommendation updates based on user behavior
-- Integration with additional data sources for even more context-aware recommendations
-- A/B testing framework to continuously improve recommendation quality
-- Mobile applications for iOS and Android
-
-## How to Reset Git History
-
-If you want to reset the Git history and make this commit the first one:
-
-```bash
-# Careful: This removes all history!
-rm -rf .git
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin <your-repository-url>
-git push -u --force origin main
-```
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contributors
 
-- Your Team Names Here 
+- Giacomo, Simao, Duarte, Paolo and Ramon
